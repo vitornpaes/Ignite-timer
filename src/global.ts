@@ -9,7 +9,7 @@ export const GlobalStyled = createGlobalStyle`
 
   :focus{
     outline: 0;
-    box-shadow: 0 0 0 2px${(props) => props.theme["green-500"]};;
+    box-shadow: 0 0 0 2px ${(props) => props.theme["green-500"]};;
   }
 
   body{
@@ -22,4 +22,4 @@ export const GlobalStyled = createGlobalStyle`
     font-weight: 400;
     font-size: 1rem;
   }
-`;
+`;  
